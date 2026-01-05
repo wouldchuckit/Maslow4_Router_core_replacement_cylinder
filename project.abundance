@@ -12,12 +12,12 @@
     },
     {
       "name": "WallThick",
-      "ioValue": 20
+      "ioValue": 20,
+      "currentEquation": "20"
     },
     {
       "name": "RodDiameter",
-      "ioValue": 3.175,
-      "currentEquation": "3.175"
+      "ioValue": 3.3
     }
   ],
   "topLevel": true,
@@ -293,8 +293,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.20280474649406688,
-      "y": 0.22170900692840645,
+      "x": 0.23786407766990292,
+      "y": 0.22863741339491916,
       "uniqueID": "id-255315",
       "ioValues": [
         {
@@ -359,6 +359,36 @@
       "y": 0.242,
       "uniqueID": "id-255319",
       "name": "RodDiameter"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.27292340884573896,
+      "y": 0.7321016166281755,
+      "uniqueID": "id-255322",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 3.3
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.3861920172599784,
+      "y": 0.47113163972286376,
+      "uniqueID": "id-255325",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 69
+        },
+        {
+          "name": "y",
+          "ioValue": 20
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -376,6 +406,11 @@
       "ap2Name": "d",
       "ap1ID": "id-255275",
       "ap2ID": "id-255305"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-255275",
+      "ap2ID": "id-255325"
     },
     {
       "ap2Name": "Shape 1",
@@ -401,6 +436,11 @@
       "ap2Name": "y",
       "ap1ID": "id-255283",
       "ap2ID": "id-255286"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-255283",
+      "ap2ID": "id-255325"
     },
     {
       "ap2Name": "diameter",
@@ -431,6 +471,11 @@
       "ap2Name": "geometry1",
       "ap1ID": "id-255310",
       "ap2ID": "id-255290"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-255319",
+      "ap2ID": "id-255322"
     }
   ],
   "unitsKey": "MM",
