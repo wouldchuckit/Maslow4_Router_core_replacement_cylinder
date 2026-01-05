@@ -686,7 +686,7 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.36084142394822005,
+      "x": 0.3225458468176915,
       "y": 0.7967667436489608,
       "uniqueID": "id-255368",
       "ioValues": [
@@ -1304,21 +1304,31 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.4994606256742179,
-      "y": 0.23787528868360275,
+      "x": 0.5102481121898598,
+      "y": 0.8198614318706698,
       "uniqueID": "id-255399",
-      "name": "x + y",
+      "name": "h/WoodThick",
       "ioValues": [
         {
-          "name": "x",
-          "ioValue": 1
+          "name": "h",
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
-          "name": "y",
-          "ioValue": 1
+          "name": "WoodThick",
+          "ioValue": 1,
+          "currentEquation": "1"
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "h/WoodThick"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.43365695792880254,
+      "y": 0.7990762124711317,
+      "uniqueID": "id-255403",
+      "name": "CylinderHeight",
+      "value": 89
     }
   ],
   "allConnectors": [
