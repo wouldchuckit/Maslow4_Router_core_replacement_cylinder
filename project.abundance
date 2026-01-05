@@ -26,16 +26,16 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.0604099244875944,
-      "y": 0.3325635103926097,
+      "x": 0.022114347357065803,
+      "y": 0.42494226327944573,
       "uniqueID": "id-255275",
       "name": "RouterCylinder",
       "value": 69
     },
     {
       "atomType": "Circle",
-      "x": 0.1634304207119741,
-      "y": 0.43187066974595845,
+      "x": 0.1040992448759439,
+      "y": 0.4295612009237875,
       "uniqueID": "id-255277",
       "ioValues": [
         {
@@ -46,13 +46,13 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.16828478964401294,
-      "y": 0.6443418013856812,
+      "x": 0.10625674217907229,
+      "y": 0.5958429561200923,
       "uniqueID": "id-255280",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 49
         }
       ]
     },
@@ -65,8 +65,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.10679611650485438,
-      "y": 0.5958429561200923,
+      "x": 0.020496224379719524,
+      "y": 0.5542725173210161,
       "uniqueID": "id-255286",
       "name": "x - y",
       "ioValues": [
@@ -80,6 +80,68 @@
         }
       ],
       "currentEquation": "x - y"
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.1488673139158576,
+      "y": 0.5080831408775981,
+      "uniqueID": "id-255290",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": {
+            "geometry": "circle-34.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "geometry2",
+          "ioValue": {
+            "geometry": "circle-24.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -94,11 +156,25 @@
       "ap2ID": "id-255286"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-255277",
+      "ap2ID": "id-255290"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-255280",
+      "ap2ID": "id-255290"
+    },
+    {
       "ap2Name": "y",
       "ap1ID": "id-255283",
       "ap2ID": "id-255286"
     },
-    null
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-255286",
+      "ap2ID": "id-255280"
+    }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
