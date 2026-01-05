@@ -9,6 +9,10 @@
       "name": "WoodThick",
       "ioValue": 12.7,
       "currentEquation": "12.7"
+    },
+    {
+      "name": "WallThick",
+      "ioValue": 20
     }
   ],
   "topLevel": true,
@@ -39,6 +43,43 @@
           "ioValue": 69
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.16828478964401294,
+      "y": 0.6443418013856812,
+      "uniqueID": "id-255280",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.176,
+      "uniqueID": "id-255283",
+      "name": "WallThick"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.10679611650485438,
+      "y": 0.5958429561200923,
+      "uniqueID": "id-255286",
+      "name": "x - y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 69
+        },
+        {
+          "name": "y",
+          "ioValue": 20
+        }
+      ],
+      "currentEquation": "x - y"
     }
   ],
   "allConnectors": [
@@ -46,7 +87,18 @@
       "ap2Name": "diameter",
       "ap1ID": "id-255275",
       "ap2ID": "id-255277"
-    }
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-255275",
+      "ap2ID": "id-255286"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-255283",
+      "ap2ID": "id-255286"
+    },
+    null
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
