@@ -11,8 +11,7 @@
     },
     {
       "name": "WallThick",
-      "ioValue": 6,
-      "currentEquation": "6"
+      "ioValue": 6
     },
     {
       "name": "RodDiameter",
