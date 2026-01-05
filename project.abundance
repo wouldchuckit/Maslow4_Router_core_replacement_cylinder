@@ -361,8 +361,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2524271844660194,
-      "y": 0.6997690531177828,
+      "x": 0.20280474649406688,
+      "y": 0.8221709006928407,
       "uniqueID": "id-255322",
       "ioValues": [
         {
@@ -391,9 +391,103 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3300970873786408,
-      "y": 0.489607390300231,
+      "x": 0.3187702265372168,
+      "y": 0.6812933025404158,
       "uniqueID": "id-255329",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": {
+            "geometry": "circle-1.65",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "xDist",
+          "ioValue": 29.5
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.26429341963322545,
+      "y": 0.74364896073903,
+      "uniqueID": "id-255335",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": {
+            "geometry": "circle-1.65",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "xDist",
+          "ioValue": -29.5
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3106796116504854,
+      "y": 0.833718244803695,
+      "uniqueID": "id-255341",
       "ioValues": [
         {
           "name": "geometry",
@@ -428,7 +522,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 29.5
         },
         {
           "name": "zDist",
@@ -438,61 +532,36 @@
     },
     {
       "atomType": "Move",
-      "x": 0.33225458468176916,
-      "y": 0.6766743648960739,
-      "uniqueID": "id-255335",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": null
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.337108953613808,
-      "y": 0.8244803695150116,
-      "uniqueID": "id-255341",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": null
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.337108953613808,
-      "y": 0.956120092378753,
+      "x": 0.2669902912621359,
+      "y": 0.9145496535796767,
       "uniqueID": "id-255347",
       "ioValues": [
         {
           "name": "geometry",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "circle-1.65",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         },
         {
           "name": "xDist",
@@ -500,7 +569,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": -29.5
         },
         {
           "name": "zDist",
@@ -510,8 +579,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.127831715210356,
-      "y": 0.18706697459584296,
+      "x": 0.10032362459546927,
+      "y": 0.20323325635103925,
       "uniqueID": "id-255353",
       "name": "x + 2*y",
       "ioValues": [
@@ -528,22 +597,22 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.2545846817691478,
-      "y": 0.9053117782909931,
+      "x": 0.10841423948220064,
+      "y": 0.9122401847575057,
       "uniqueID": "id-255357",
       "name": "-x",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 29.5
         }
       ],
       "currentEquation": "-x"
     },
     {
       "atomType": "Circle",
-      "x": 0.29449838187702265,
-      "y": 0.17090069284064663,
+      "x": 0.1553398058252427,
+      "y": 0.20092378752886836,
       "uniqueID": "id-255361",
       "ioValues": [
         {
@@ -554,8 +623,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.3629989212513484,
-      "y": 0.20785219399538107,
+      "x": 0.2373247033441208,
+      "y": 0.17321016166281755,
       "uniqueID": "id-255364",
       "ioValues": [
         {
@@ -610,6 +679,507 @@
             },
             "color": "#aad7f2",
             "bom": []
+          }
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.37216828478964403,
+      "y": 0.7990762124711317,
+      "uniqueID": "id-255368",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.3473570658036677,
+      "y": 0.14318706697459585,
+      "uniqueID": "id-255375",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": {
+            "geometry": "cut-circle-44.5-circle-24.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "geometry2",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "move-circle-1.65-29.5-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-circle-1.65--29.5-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-circle-1.65-0-29.5-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-circle-1.65-0--29.5-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "2D"
+          }
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.348435814455232,
+      "y": 0.2840646651270208,
+      "uniqueID": "id-255379",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": {
+            "geometry": "cut-circle-34.5-circle-24.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "geometry2",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "move-circle-1.65-29.5-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-circle-1.65--29.5-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-circle-1.65-0-29.5-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-circle-1.65-0--29.5-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "2D"
+          }
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.34466019417475724,
+      "y": 0.4364896073903002,
+      "uniqueID": "id-255383",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": {
+            "geometry": "cut-fuse-circle-34.5-move-circle-6-34.5-0-0-circle-24.5",
+            "tags": [],
+            "bom": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "2D"
+          }
+        },
+        {
+          "name": "geometry2",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "move-circle-1.65-29.5-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-circle-1.65--29.5-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-circle-1.65-0-29.5-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-circle-1.65-0--29.5-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "2D"
           }
         }
       ]
@@ -687,6 +1257,11 @@
       "ap2ID": "id-255280"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-255290",
+      "ap2ID": "id-255383"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-255294",
       "ap2ID": "id-255299"
@@ -712,6 +1287,11 @@
       "ap2ID": "id-255290"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-255315",
+      "ap2ID": "id-255379"
+    },
+    {
       "ap2Name": "diameter",
       "ap1ID": "id-255319",
       "ap2ID": "id-255322"
@@ -722,14 +1302,94 @@
       "ap2ID": "id-255329"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-255322",
+      "ap2ID": "id-255335"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-255322",
+      "ap2ID": "id-255341"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-255322",
+      "ap2ID": "id-255347"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-255325",
+      "ap2ID": "id-255357"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-255325",
+      "ap2ID": "id-255329"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-255325",
+      "ap2ID": "id-255341"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-255329",
+      "ap2ID": "id-255368"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-255335",
+      "ap2ID": "id-255368"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-255341",
+      "ap2ID": "id-255368"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-255347",
+      "ap2ID": "id-255368"
+    },
+    {
       "ap2Name": "diameter",
       "ap1ID": "id-255353",
       "ap2ID": "id-255361"
     },
     {
+      "ap2Name": "xDist",
+      "ap1ID": "id-255357",
+      "ap2ID": "id-255335"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-255357",
+      "ap2ID": "id-255347"
+    },
+    {
       "ap2Name": "geometry1",
       "ap1ID": "id-255361",
       "ap2ID": "id-255364"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-255364",
+      "ap2ID": "id-255375"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-255368",
+      "ap2ID": "id-255375"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-255368",
+      "ap2ID": "id-255379"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-255368",
+      "ap2ID": "id-255383"
     }
   ],
   "unitsKey": "MM",
