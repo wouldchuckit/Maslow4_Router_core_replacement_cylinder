@@ -1,13 +1,50 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-254091",
-    "name": "Maslow4_Router_core_replacement_cylinder",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-254091",
+  "name": "Maslow4_Router_core_replacement_cylinder",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-254092",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.2815533980582524,
+      "y": 0.4665127020785219,
+      "uniqueID": "id-254098",
+      "name": "Github Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-254100",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": null
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
