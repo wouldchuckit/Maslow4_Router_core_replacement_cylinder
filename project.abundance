@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 12
     }
   ],
   "topLevel": true,
@@ -19,6 +18,14 @@
       "y": 0.10999999999999999,
       "uniqueID": "id-255272",
       "name": "WoodThick"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.21305285868392665,
+      "y": 0.3279445727482679,
+      "uniqueID": "id-255275",
+      "name": "RouterCylinder",
+      "value": 69
     }
   ],
   "allConnectors": [],
