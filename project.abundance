@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 12
+      "ioValue": 12.7,
+      "currentEquation": "12.7"
     }
   ],
   "topLevel": true,
@@ -21,14 +22,32 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.21305285868392665,
-      "y": 0.3279445727482679,
+      "x": 0.0604099244875944,
+      "y": 0.3325635103926097,
       "uniqueID": "id-255275",
       "name": "RouterCylinder",
       "value": 69
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.1634304207119741,
+      "y": 0.43187066974595845,
+      "uniqueID": "id-255277",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 69
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-255275",
+      "ap2ID": "id-255277"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
