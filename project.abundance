@@ -13,6 +13,10 @@
     {
       "name": "WallThick",
       "ioValue": 20
+    },
+    {
+      "name": "Input",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -83,8 +87,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.23300970873786406,
-      "y": 0.48267898383371827,
+      "x": 0.24487594390507011,
+      "y": 0.4434180138568129,
       "uniqueID": "id-255290",
       "ioValues": [
         {
@@ -146,7 +150,7 @@
     {
       "atomType": "Circle",
       "x": 0.10841423948220064,
-      "y": 0.7621247113163973,
+      "y": 0.7205542725173211,
       "uniqueID": "id-255294",
       "ioValues": [
         {
@@ -164,8 +168,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.17691477885652643,
-      "y": 0.7505773672055427,
+      "x": 0.1574973031283711,
+      "y": 0.8106235565819861,
       "uniqueID": "id-255299",
       "ioValues": [
         {
@@ -211,8 +215,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.0372168284789644,
-      "y": 0.8521939953810623,
+      "x": 0.02481121898597627,
+      "y": 0.7944572748267898,
       "uniqueID": "id-255305",
       "name": "d/2",
       "ioValues": [
@@ -225,8 +229,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.1817691477885653,
-      "y": 0.6859122401847575,
+      "x": 0.174217907227616,
+      "y": 0.39953810623556585,
       "uniqueID": "id-255310",
       "ioValues": [
         {
@@ -285,6 +289,74 @@
         }
       ],
       "unionType": "Fusion"
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.20280474649406688,
+      "y": 0.22170900692840645,
+      "uniqueID": "id-255315",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": {
+            "geometry": "circle-34.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "geometry2",
+          "ioValue": {
+            "geometry": "circle-24.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.242,
+      "uniqueID": "id-255319"
     }
   ],
   "allConnectors": [
@@ -309,9 +381,19 @@
       "ap2ID": "id-255310"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-255277",
+      "ap2ID": "id-255315"
+    },
+    {
       "ap2Name": "geometry2",
       "ap1ID": "id-255280",
       "ap2ID": "id-255290"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-255280",
+      "ap2ID": "id-255315"
     },
     {
       "ap2Name": "y",
