@@ -15,8 +15,9 @@
       "ioValue": 20
     },
     {
-      "name": "Input",
-      "ioValue": 10
+      "name": "RodDiameter",
+      "ioValue": 3.175,
+      "currentEquation": "3.175"
     }
   ],
   "topLevel": true,
@@ -356,7 +357,8 @@
       "atomType": "Input",
       "x": 0.01815,
       "y": 0.242,
-      "uniqueID": "id-255319"
+      "uniqueID": "id-255319",
+      "name": "RodDiameter"
     }
   ],
   "allConnectors": [
