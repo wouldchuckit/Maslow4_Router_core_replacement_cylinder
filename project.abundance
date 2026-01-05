@@ -2346,6 +2346,309 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.9072276159654801,
+      "y": 0.8729792147806004,
+      "uniqueID": "id-255987",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "cut-move-extrude-cut-cut-cut-cut-cut-circle-44.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-127-move-rotate-extrude-cut-cut-cut-cut-cut-fuse-circle-34.5-move-circle-12-34.5-0-0-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-180-0-0-114.3",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "cut-move-rotate-extrude-cut-cut-cut-cut-cut-fuse-circle-34.5-move-circle-12-34.5-0-0-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-180-0-0-114.3-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-101.6",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D"
+              },
+              {
+                "geometry": "cut-cut-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-25.4-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-38.099999999999994-move-extrude-cut-cut-cut-cut-cut-fuse-circle-34.5-move-circle-12-34.5-0-0-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-12.7",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "cut-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-38.099999999999994-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-50.8",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "cut-cut-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-63.5-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-76.19999999999999-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-50.8",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "cut-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-76.19999999999999-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-88.89999999999999",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "cut-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-88.89999999999999-move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-101.6",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-101.6",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "move-extrude-cut-cut-cut-cut-cut-circle-34.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-50.8",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "cut-move-extrude-cut-cut-cut-cut-cut-fuse-circle-34.5-move-circle-12-34.5-0-0-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7-0-0-12.7-extrude-cut-cut-cut-cut-cut-circle-44.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D"
+              },
+              {
+                "geometry": "extrude-cut-cut-cut-cut-cut-circle-44.5-circle-24.5-move-circle-1.65-29.5-0-0-move-circle-1.65--29.5-0-0-move-circle-1.65-0-29.5-0-move-circle-1.65-0--29.5-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12.7",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "3D"
+          }
+        }
+      ],
+      "readMeText": "Attempt to make a cylinder to replace the router using wood or plastic and the maslow4. You can change the thickness of the wood stock. If you change it you would need to make a different number of simple circular slices. I used 7 slices with .5 inch thick wood stock. Hardware for this is 4 1/8 in threaded rods and corresponding washers and nuts It will still require something to hold the computer board. ",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -2803,6 +3106,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-255796",
       "ap2ID": "id-255404"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-255796",
+      "ap2ID": "id-255987"
     }
   ],
   "unitsKey": "MM",
