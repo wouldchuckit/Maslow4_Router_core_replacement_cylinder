@@ -12,8 +12,7 @@
     },
     {
       "name": "WallThick",
-      "ioValue": 20,
-      "currentEquation": "20"
+      "ioValue": 10
     },
     {
       "name": "RodDiameter",
@@ -70,10 +69,10 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.020496224379719524,
-      "y": 0.5542725173210161,
+      "x": 0.0296655879180151,
+      "y": 0.5496535796766744,
       "uniqueID": "id-255286",
-      "name": "x - y",
+      "name": "x -2* y",
       "ioValues": [
         {
           "name": "x",
@@ -81,10 +80,10 @@
         },
         {
           "name": "y",
-          "ioValue": 20
+          "ioValue": 10
         }
       ],
-      "currentEquation": "x - y"
+      "currentEquation": "x -2* y"
     },
     {
       "atomType": "Difference",
@@ -385,15 +384,15 @@
         },
         {
           "name": "y",
-          "ioValue": 20
+          "ioValue": 10
         }
       ],
       "currentEquation": ".5*x - .5*y"
     },
     {
       "atomType": "Move",
-      "x": 0.3295577130528587,
-      "y": 0.5935334872979214,
+      "x": 0.3300970873786408,
+      "y": 0.489607390300231,
       "uniqueID": "id-255329",
       "ioValues": [
         {
@@ -439,8 +438,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3300970873786408,
-      "y": 0.7182448036951501,
+      "x": 0.33225458468176916,
+      "y": 0.6766743648960739,
       "uniqueID": "id-255335",
       "ioValues": [
         {
@@ -463,8 +462,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3290183387270766,
-      "y": 0.8429561200923789,
+      "x": 0.337108953613808,
+      "y": 0.8244803695150116,
       "uniqueID": "id-255341",
       "ioValues": [
         {
@@ -487,8 +486,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3969795037756203,
-      "y": 0.7782909930715934,
+      "x": 0.337108953613808,
+      "y": 0.956120092378753,
       "uniqueID": "id-255347",
       "ioValues": [
         {
@@ -618,11 +617,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-255322",
       "ap2ID": "id-255329"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-255341",
-      "ap2ID": "id-255347"
     }
   ],
   "unitsKey": "MM",
