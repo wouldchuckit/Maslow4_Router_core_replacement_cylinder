@@ -1311,7 +1311,7 @@
       "ioValues": [
         {
           "name": "h",
-          "ioValue": 1,
+          "ioValue": 89,
           "currentEquation": "1"
         },
         {
@@ -1566,6 +1566,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-255383",
       "ap2ID": "id-255395"
+    },
+    {
+      "ap2Name": "h",
+      "ap1ID": "id-255403",
+      "ap2ID": "id-255399"
     }
   ],
   "unitsKey": "MM",
