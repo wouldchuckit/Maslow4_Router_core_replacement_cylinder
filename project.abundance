@@ -89,7 +89,30 @@
       "ioValues": [
         {
           "name": "geometry1",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "fuse-circle-34.5-move-circle-6-34.5-0-0",
+            "tags": [],
+            "bom": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "2D"
+          }
         },
         {
           "name": "geometry2",
@@ -319,6 +342,11 @@
       "ap2Name": "xDist",
       "ap1ID": "id-255305",
       "ap2ID": "id-255299"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-255310",
+      "ap2ID": "id-255290"
     }
   ],
   "unitsKey": "MM",
