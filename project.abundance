@@ -406,8 +406,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.10517799352750809,
-      "y": 0.8983833718244804,
+      "x": 0.104638619201726,
+      "y": 0.8937644341801385,
       "uniqueID": "id-255357",
       "name": "-x",
       "ioValues": [
@@ -1641,8 +1641,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.44606256742179073,
-      "y": 0.5219399538106235,
+      "x": 0.4530744336569579,
+      "y": 0.5196304849884527,
       "uniqueID": "id-256543",
       "ioValues": [
         {
@@ -1651,7 +1651,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 34.5
         },
         {
           "name": "yDist",
@@ -1662,6 +1662,24 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.45361380798274004,
+      "y": 0.6743648960739029,
+      "uniqueID": "id-256554",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -1834,6 +1852,11 @@
       "ap2Name": "xDist",
       "ap1ID": "id-255305",
       "ap2ID": "id-255299"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-255305",
+      "ap2ID": "id-256543"
     },
     {
       "ap2Name": "geometry1",
