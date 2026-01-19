@@ -1810,6 +1810,37 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.7055016181229773,
+      "y": 0.13856812933025403,
+      "uniqueID": "id-257157",
+      "name": "LowerRing",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "LowerRing"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.790722761596548,
+      "y": 0.15473441108545033,
+      "uniqueID": "id-257160",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        ""
+      ]
     }
   ],
   "allConnectors": [
