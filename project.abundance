@@ -1665,21 +1665,11 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.45361380798274004,
-      "y": 0.6743648960739029,
+      "x": 0.48597626752966566,
+      "y": 0.6859122401847575,
       "uniqueID": "id-256554",
-      "name": "x + y",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 1
-        },
-        {
-          "name": "y",
-          "ioValue": 1
-        }
-      ],
-      "currentEquation": "x + y"
+      "name": "",
+      "currentEquation": ""
     }
   ],
   "allConnectors": [
