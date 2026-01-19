@@ -520,8 +520,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3214670981661273,
-      "y": 0.14318706697459585,
+      "x": 0.3333333333333333,
+      "y": 0.10854503464203233,
       "uniqueID": "id-255387",
       "ioValues": [
         {
@@ -977,8 +977,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6062567421790723,
-      "y": 0.4780600461893765,
+      "x": 0.6024811218985976,
+      "y": 0.4757505773672055,
       "uniqueID": "id-255785",
       "ioValues": [
         {
@@ -1046,7 +1046,7 @@
           "ioValue": null
         },
         {
-          "name": "Shape 11",
+          "name": "Shape 12",
           "ioValue": null
         }
       ]
@@ -1813,8 +1813,8 @@
     },
     {
       "atomType": "Tag",
-      "x": 0.7055016181229773,
-      "y": 0.13856812933025403,
+      "x": 0.7157497303128372,
+      "y": 0.6258660508083141,
       "uniqueID": "id-257157",
       "name": "LowerRing",
       "ioValues": [
@@ -1829,9 +1829,10 @@
     },
     {
       "atomType": "Tag",
-      "x": 0.790722761596548,
-      "y": 0.15473441108545033,
+      "x": 0.5539374325782093,
+      "y": 0.4965357967667437,
       "uniqueID": "id-257160",
+      "name": "LowerClampRing",
       "ioValues": [
         {
           "name": "geometry",
@@ -1839,7 +1840,7 @@
         }
       ],
       "tags": [
-        ""
+        "LowerClampRing"
       ]
     }
   ],
@@ -2160,9 +2161,9 @@
       "ap2ID": "id-255521"
     },
     {
-      "ap2Name": "Shape 11",
+      "ap2Name": "geometry",
       "ap1ID": "id-255387",
-      "ap2ID": "id-255796"
+      "ap2ID": "id-257157"
     },
     {
       "ap2Name": "geometry",
@@ -2412,7 +2413,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-256850",
-      "ap2ID": "id-255785"
+      "ap2ID": "id-257160"
     },
     {
       "ap2Name": "y",
@@ -2433,6 +2434,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-256205",
       "ap2ID": "id-256258"
+    },
+    {
+      "ap2Name": "Shape 12",
+      "ap1ID": "id-257157",
+      "ap2ID": "id-255796"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-257160",
+      "ap2ID": "id-255785"
     }
   ],
   "unitsKey": "MM",
