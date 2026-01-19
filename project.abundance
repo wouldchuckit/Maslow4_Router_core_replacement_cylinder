@@ -1610,6 +1610,18 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.3592233009708738,
+      "y": 0.5288683602771362,
+      "uniqueID": "id-256536",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
