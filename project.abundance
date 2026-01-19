@@ -1665,11 +1665,25 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.48597626752966566,
-      "y": 0.6859122401847575,
+      "x": 0.47680690399137,
+      "y": 0.6351039260969977,
       "uniqueID": "id-256554",
-      "name": "",
-      "currentEquation": ""
+      "name": "(asin(o/h)",
+      "ioValues": [
+        {
+          "name": "asin",
+          "ioValue": 0
+        },
+        {
+          "name": "o",
+          "ioValue": 1
+        },
+        {
+          "name": "h",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "(asin(o/h)"
     }
   ],
   "allConnectors": [
