@@ -1357,6 +1357,38 @@
       "currentEquation": "x + y"
     },
     {
+      "atomType": "Tag",
+      "x": 0.7157497303128372,
+      "y": 0.6258660508083141,
+      "uniqueID": "id-257157",
+      "name": "LowerRing",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "LowerRing"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.5539374325782093,
+      "y": 0.4965357967667437,
+      "uniqueID": "id-257160",
+      "name": "LowerClampRing",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "LowerClampRing"
+      ]
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.6515641855447681,
       "y": 0.7990762124711317,
@@ -1810,38 +1842,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Tag",
-      "x": 0.7157497303128372,
-      "y": 0.6258660508083141,
-      "uniqueID": "id-257157",
-      "name": "LowerRing",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tags": [
-        "LowerRing"
-      ]
-    },
-    {
-      "atomType": "Tag",
-      "x": 0.5539374325782093,
-      "y": 0.4965357967667437,
-      "uniqueID": "id-257160",
-      "name": "LowerClampRing",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tags": [
-        "LowerClampRing"
-      ]
     }
   ],
   "allConnectors": [
@@ -2431,11 +2431,6 @@
       "ap2ID": "id-256543"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-256205",
-      "ap2ID": "id-256258"
-    },
-    {
       "ap2Name": "Shape 12",
       "ap1ID": "id-257157",
       "ap2ID": "id-255796"
@@ -2444,6 +2439,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-257160",
       "ap2ID": "id-255785"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-256205",
+      "ap2ID": "id-256258"
     }
   ],
   "unitsKey": "MM",
