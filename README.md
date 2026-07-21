@@ -4,11 +4,19 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **WoodThick** (number)
+- **WallThick** (number)
+- **RodDiameter** (number)
+- **BitDiameter** (number)
+
+
 
 
  Attempt to make a cylinder to replace the router using wood or plastic and the maslow4. You can change the thickness of the wood stock. If you change it you would need to make a different number of simple circular slices. I used 7 slices with .5 inch thick wood stock. Hardware for this is 4 1/8 in threaded rods and corresponding washers and nuts It will still require something to hold the computer board. 
 
-**Value:** __GEOMETRY_INPUT__
+__GEOMETRY_INPUT__
 
 
 
