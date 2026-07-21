@@ -7,11 +7,12 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 12.7
+      "ioValue": 18
     },
     {
       "name": "WallThick",
-      "ioValue": 6
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "RodDiameter",
@@ -71,7 +72,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 57
+          "ioValue": 49
         }
       ]
     },
@@ -95,7 +96,7 @@
         },
         {
           "name": "y",
-          "ioValue": 6
+          "ioValue": 10
         }
       ],
       "currentEquation": "x -2* y"
@@ -107,11 +108,11 @@
       "uniqueID": "id-255290",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
@@ -244,11 +245,11 @@
       "uniqueID": "id-255315",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
@@ -285,7 +286,7 @@
         },
         {
           "name": "y",
-          "ioValue": 6
+          "ioValue": 10
         }
       ],
       "currentEquation": ".5*x - .5*y"
@@ -302,7 +303,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 31.5
+          "ioValue": 29.5
         },
         {
           "name": "yDist",
@@ -326,7 +327,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -31.5
+          "ioValue": -29.5
         },
         {
           "name": "yDist",
@@ -354,7 +355,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 31.5
+          "ioValue": 29.5
         },
         {
           "name": "zDist",
@@ -378,7 +379,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -31.5
+          "ioValue": -29.5
         },
         {
           "name": "zDist",
@@ -399,7 +400,7 @@
         },
         {
           "name": "y",
-          "ioValue": 6
+          "ioValue": 10
         }
       ],
       "currentEquation": "x + 2*y"
@@ -413,7 +414,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 31.5
+          "ioValue": 29.5
         }
       ],
       "currentEquation": "-x"
@@ -426,7 +427,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 81
+          "ioValue": 89
         }
       ]
     },
@@ -437,11 +438,11 @@
       "uniqueID": "id-255364",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
@@ -477,11 +478,11 @@
       "uniqueID": "id-255375",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
@@ -493,11 +494,11 @@
       "uniqueID": "id-255379",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
@@ -509,11 +510,11 @@
       "uniqueID": "id-255383",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
@@ -530,7 +531,7 @@
         },
         {
           "name": "height",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ]
     },
@@ -546,7 +547,7 @@
         },
         {
           "name": "height",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ]
     },
@@ -562,7 +563,7 @@
         },
         {
           "name": "height",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ]
     },
@@ -597,7 +598,7 @@
       "ioValues": [
         {
           "name": "NumberOfLayers",
-          "ioValue": 7.0078740157480315
+          "ioValue": 4.944444444444445
         }
       ],
       "currentEquation": "NumberOfLayers"
@@ -653,7 +654,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 127
+          "ioValue": 180
         }
       ]
     },
@@ -666,7 +667,7 @@
       "ioValues": [
         {
           "name": "z",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ],
       "currentEquation": "10*z"
@@ -691,7 +692,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 114.3
+          "ioValue": 162
         }
       ]
     },
@@ -715,7 +716,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 25.4
+          "ioValue": 36
         }
       ]
     },
@@ -739,7 +740,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 38.099999999999994
+          "ioValue": 54
         }
       ]
     },
@@ -763,7 +764,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 50.8
+          "ioValue": 72
         }
       ]
     },
@@ -787,7 +788,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 63.5
+          "ioValue": 90
         }
       ]
     },
@@ -811,7 +812,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 76.19999999999999
+          "ioValue": 108
         }
       ]
     },
@@ -835,7 +836,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 88.89999999999999
+          "ioValue": 126
         }
       ]
     },
@@ -859,7 +860,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 101.6
+          "ioValue": 144
         }
       ]
     },
@@ -872,7 +873,7 @@
       "ioValues": [
         {
           "name": "z",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ],
       "currentEquation": "2*z"
@@ -886,7 +887,7 @@
       "ioValues": [
         {
           "name": "z",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ],
       "currentEquation": "9*z"
@@ -900,7 +901,7 @@
       "ioValues": [
         {
           "name": "z",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ],
       "currentEquation": "3*z"
@@ -914,7 +915,7 @@
       "ioValues": [
         {
           "name": "z",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ],
       "currentEquation": "4*z"
@@ -928,7 +929,7 @@
       "ioValues": [
         {
           "name": "z",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ],
       "currentEquation": "5*z"
@@ -942,7 +943,7 @@
       "ioValues": [
         {
           "name": "z",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ],
       "currentEquation": "6*z"
@@ -956,7 +957,7 @@
       "ioValues": [
         {
           "name": "z",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ],
       "currentEquation": "7*z"
@@ -970,7 +971,7 @@
       "ioValues": [
         {
           "name": "z",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ],
       "currentEquation": "8*z"
@@ -995,7 +996,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ]
     },
@@ -1086,7 +1087,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 14.399999999999999
+          "ioValue": 25
         }
       ]
     },
@@ -1121,11 +1122,11 @@
       "uniqueID": "id-256270",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
@@ -1147,7 +1148,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 12.7
+          "ioValue": 18
         },
         {
           "name": "y",
@@ -1180,7 +1181,7 @@
         },
         {
           "name": "height",
-          "ioValue": 12.7
+          "ioValue": 18
         }
       ]
     },
@@ -1315,11 +1316,11 @@
       "uniqueID": "id-256850",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
@@ -1527,11 +1528,11 @@
           "uniqueID": "id-256195",
           "ioValues": [
             {
-              "name": "geometry1",
+              "name": "retain",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "geometry2",
+              "name": "remove",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
@@ -1575,11 +1576,11 @@
           "uniqueID": "id-256198",
           "ioValues": [
             {
-              "name": "geometry1",
+              "name": "retain",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "geometry2",
+              "name": "remove",
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
@@ -1734,7 +1735,7 @@
           "ap2ID": "id-256193"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-256189",
           "ap2ID": "id-256195"
         },
@@ -1749,7 +1750,7 @@
           "ap2ID": "id-256190"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-256192",
           "ap2ID": "id-256195"
         },
@@ -1779,7 +1780,7 @@
           "ap2ID": "id-256200"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-256197",
           "ap2ID": "id-256198"
         },
@@ -1814,7 +1815,7 @@
           "ap2ID": "id-256200"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-256203",
           "ap2ID": "id-256198"
         }
@@ -1956,22 +1957,22 @@
       "ap2ID": "id-255310"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-255277",
       "ap2ID": "id-255315"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-255280",
       "ap2ID": "id-255290"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-255280",
       "ap2ID": "id-255315"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-255280",
       "ap2ID": "id-255364"
     },
@@ -1996,7 +1997,7 @@
       "ap2ID": "id-255280"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-255290",
       "ap2ID": "id-255383"
     },
@@ -2031,12 +2032,12 @@
       "ap2ID": "id-256859"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-255310",
       "ap2ID": "id-255290"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-255315",
       "ap2ID": "id-255379"
     },
@@ -2116,27 +2117,27 @@
       "ap2ID": "id-255347"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-255361",
       "ap2ID": "id-255364"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-255364",
       "ap2ID": "id-255375"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-255368",
       "ap2ID": "id-255375"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-255368",
       "ap2ID": "id-255379"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-255368",
       "ap2ID": "id-255383"
     },
@@ -2201,7 +2202,7 @@
       "ap2ID": "id-255574"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-255395",
       "ap2ID": "id-256850"
     },
@@ -2326,7 +2327,7 @@
       "ap2ID": "id-255796"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-255796",
       "ap2ID": "id-256270"
     },
@@ -2336,7 +2337,7 @@
       "ap2ID": "id-256264"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-256264",
       "ap2ID": "id-256270"
     },
@@ -2401,7 +2402,7 @@
       "ap2ID": "id-256845"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-256845",
       "ap2ID": "id-256850"
     },
