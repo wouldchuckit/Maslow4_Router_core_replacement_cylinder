@@ -794,7 +794,7 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7750809061488674,
+      "x": 0.7804746494066883,
       "y": 0.35334872979214776,
       "uniqueID": "id-255562",
       "ioValues": [
@@ -818,8 +818,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.86084142394822,
-      "y": 0.3556581986143187,
+      "x": 0.8737864077669903,
+      "y": 0.20785219399538107,
       "uniqueID": "id-255568",
       "ioValues": [
         {
@@ -842,8 +842,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.9412081984897519,
-      "y": 0.36027713625866054,
+      "x": 0.9050701186623518,
+      "y": 0.20785219399538107,
       "uniqueID": "id-255574",
       "ioValues": [
         {
@@ -866,8 +866,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.38133764832793954,
-      "y": 0.35334872979214776,
+      "x": 0.3856526429341963,
+      "y": 0.3325635103926097,
       "uniqueID": "id-255580",
       "name": "2*z",
       "ioValues": [
@@ -950,8 +950,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.8182308522114348,
-      "y": 0.3556581986143187,
+      "x": 0.86084142394822,
+      "y": 0.12933025404157045,
       "uniqueID": "id-255775",
       "name": "7*z",
       "ioValues": [
@@ -964,8 +964,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.8996763754045307,
-      "y": 0.3579676674364896,
+      "x": 0.906688241639698,
+      "y": 0.12009237875288684,
       "uniqueID": "id-255780",
       "name": "8*z",
       "ioValues": [
@@ -1031,14 +1031,6 @@
           "ioValue": null
         },
         {
-          "name": "Shape 7",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 8",
-          "ioValue": null
-        },
-        {
           "name": "Shape 9",
           "ioValue": null
         },
@@ -1064,7 +1056,7 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "Attempt to make a cylinder to replace the router using wood or plastic and the maslow4. You can change the thickness of the wood stock. If you change it you would need to make a different number of simple circular slices. I used 7 slices with .5 inch thick wood stock. Hardware for this is 4 1/8 in threaded rods and corresponding washers and nuts It will still require something to hold the computer board. ",
+      "readMeText": "Attempt to make a cylinder to replace the router using wood or plastic and the maslow4. You can change the thickness of the wood stock. If you change it you would need to make a different number of simple circular slices. I used 5 slices with .75 inch thick wood stock. Hardware for this is 4 1/8 in threaded rods and corresponding washers and nuts It will still require something to hold the computer board. May cut the top and bottom out of thinner stock. ",
       "global": true
     },
     {
@@ -1843,6 +1835,21 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.8845738942826322,
+      "y": 0.3833718244803695,
+      "uniqueID": "id-257462",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Readme text here",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -2272,14 +2279,9 @@
       "ap2ID": "id-255796"
     },
     {
-      "ap2Name": "Shape 7",
-      "ap1ID": "id-255568",
-      "ap2ID": "id-255796"
-    },
-    {
-      "ap2Name": "Shape 8",
+      "ap2Name": "value",
       "ap1ID": "id-255574",
-      "ap2ID": "id-255796"
+      "ap2ID": "id-257462"
     },
     {
       "ap2Name": "zDist",
