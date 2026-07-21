@@ -14,7 +14,13 @@
 
 
 
- Attempt to make a cylinder to replace the router using wood or plastic and the maslow4. You can change the thickness of the wood stock. If you change it you would need to make a different number of simple circular slices. I used 7 slices with .5 inch thick wood stock. Hardware for this is 4 1/8 in threaded rods and corresponding washers and nuts It will still require something to hold the computer board. 
+ Readme text here 
+
+![readme](/readmeid-257462.svg?v=nydt4x8)
+
+
+
+Attempt to make a cylinder to replace the router using wood or plastic and the maslow4. You can change the thickness of the wood stock. If you change it you would need to make a different number of simple circular slices. I used 5 slices with .75 inch thick wood stock. Hardware for this is 4 1/8 in threaded rods and corresponding washers and nuts It will still require something to hold the computer board. May cut the top and bottom out of thinner stock. 
 
 __GEOMETRY_INPUT__
 
